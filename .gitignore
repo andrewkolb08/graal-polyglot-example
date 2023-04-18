@@ -1,0 +1,41 @@
+target/
+*.class
+!.mvn/wrapper/maven-wrapper.jar
+/.vscode/
+.clover/
+.DS_Store
+
+
+### STS ###
+.apt_generated
+.springBeans
+.settings/
+.factorypath
+bin/
+.classpath
+.project
+.sonatype
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VSCode ###
+.vscode
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+
+# local testing of GH Action derefencing JS (bundle-spec.js)
+node_modules/
+dereferenced-api-spec.json
+package.json
+package-lock.json
+bundled-api-spec.json
+
+App
+App.build_artifacts.txt
