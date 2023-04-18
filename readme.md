@@ -15,16 +15,16 @@ cp com/thrivent/lnl/graalvm/polyglot/example/*.js target/com/thrivent/lnl/graalv
 
 To make it a native app:
 ```bash
-native-image -H:Name=App --language:python -cp ./target com.thrivent.lnl.graalvm.polyglot.example.App
+native-image -H:Name=App -H:ResourceConfigurationFiles=resource-config.json --language:python --language:js -cp ./target com.thrivent.lnl.graalvm.polyglot.example.App
 ```
 
-## Run the application
+## Run the application (Java)
 As a typical Java app:
 ``` bash
 java -cp target com.thrivent.lnl.graalvm.polyglot.example.App
 ```
 
-As a native app
+## Run the application (Native)
 ```bash
 ./App
 ```
