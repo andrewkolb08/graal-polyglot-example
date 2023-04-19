@@ -2,7 +2,8 @@
     "resources": {
       "includes": [
         {"pattern": ".*/*.js"},
-        {"pattern": ".*/*.py"}
+        {"pattern": ".*/*.py"},
+        {"pattern": ".*/*.so"}
       ],
       "excludes": [
       ]

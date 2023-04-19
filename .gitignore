@@ -39,3 +39,6 @@ bundled-api-spec.json
 
 App
 App.build_artifacts.txt
+*.so
+*.so.dSYM
+reports/
